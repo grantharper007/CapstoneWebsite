@@ -56,24 +56,27 @@
   </header>
 
   <!-- Opening Screen -->
-  <section id="OpeningScreen">
-    <div class="container">
-      <h2>Chef</h2>
-      <h1>Marco Bellissimo</h1>
-      <a href="#contact">Contact</a>
+  <section id="openingScreen">
+      <div id="cover"></div>
+      <div id="content">
+        <h1>Chef</h1>
+        <h2>Marco Bellissimo</h2>
 
-      <!-- *** CHANGE WORDS LATER *** -->
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, deleniti, soluta est illo hic neque
-        aperiam, iste dolor molestias voluptas ut placeat? Possimus, totam, numquam, aperiam ipsa temporibus quos enim
-        soluta id blanditiis explicabo nesciunt sunt beatae iure odit doloribus iste eius sequi magni tempore
-        necessitatibus cum eaque at mollitia.</p>
-      <img src="profilePic.webp" alt="pic of Chef">
-    </div>
+        <!-- *** CHANGE WORDS LATER *** -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, deleniti, soluta est illo hic neque
+          aperiam, iste dolor molestias voluptas ut placeat? Possimus, totam, numquam, aperiam ipsa temporibus quos enim
+          soluta id blanditiis explicabo nesciunt sunt beatae iure odit doloribus iste eius sequi magni tempore
+          necessitatibus cum eaque at mollitia.</p>
+        <a href="#contact">Contact</a>
+      </div>
   </section>
   <section id="about">
     <h1>About</h1>
     <img src="profilePic.webp" alt="pic of Chef">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum itaque ut amet, similique, asperiores earum hic assumenda fugit laborum nostrum eligendi odit? Incidunt vel officiis excepturi earum temporibus, natus sequi officia soluta debitis quidem assumenda quasi consequatur recusandae quis nobis, ullam tempore impedit labore et porro, aperiam voluptatibus magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum itaque ut amet, similique, asperiores earum
+      hic assumenda fugit laborum nostrum eligendi odit? Incidunt vel officiis excepturi earum temporibus, natus sequi
+      officia soluta debitis quidem assumenda quasi consequatur recusandae quis nobis, ullam tempore impedit labore et
+      porro, aperiam voluptatibus magnam.</p>
   </section>
 
   <section id="gallery">
@@ -89,13 +92,17 @@
     <h1>Reviews</h1>
 
     <!-- *** ADD WORDS LATER *** -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis id eos sed officiis sit voluptatem quos ullam, alias assumenda reprehenderit.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis id eos sed officiis sit voluptatem quos ullam,
+      alias assumenda reprehenderit.</p>
     <!-- *** ADD SLIDE IMAGES *** -->
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -108,11 +115,13 @@
           <img src="profilePic.webp" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -121,50 +130,50 @@
 
   <footer>
     <div id="upperFooter">
-        <div id="quickID">
-            <h2>QUICK ID</h2>
-            <p>Phone</p>
-            <li>123-456-7890</li>
-            <p>Email</p>
-            <li>exampleEmailaddress@email.com</li>
-            <p>Address:</p>
-            <li>123 Address, State, Zip</li>
-        </div>
-        <div id="contant">
-            <h3>CONTACT:</h3>
-            <!-- FormSubmit allows for an email address to be added to the form tag so that when the form is submitted the content/data in the form will be sent to the email added on the end of the "formsubmit.co" URL (NOTE: The "method" set for the form is POST not GET, because there is data being sent (AKA Posted) when the form request/submission is completed) -->
-            
-            <form class="contactForm" action="https://formsubmit.co/grant.harper@stu.barren.kyschools.us" method="Posted">
-                <div id="name">
-                    <label for="name">Name:</label>
-                    <br>
-                    <input type="text" placeholder="Name" id="name" name="name">
-                </div>
-                <div id="email">
-                    <label for="email">Email:</label>
-                    <br>
-                    <input type="email" placeholder="Email" id="email" name="email">
-                <div id="message">
-                    <label for="message">Message:</label>
-                    <br>
-                    <textarea name="message" id="message"></textarea>
-                </div>
-                <button id="sumbit" class="btn-1">Send</button>
-            </form>
-        </div>
+      <div id="quickID">
+        <h2>QUICK ID</h2>
+        <p>Phone</p>
+        <li>123-456-7890</li>
+        <p>Email</p>
+        <li>exampleEmailaddress@email.com</li>
+        <p>Address:</p>
+        <li>123 Address, State, Zip</li>
+      </div>
+      <div id="contant">
+        <h3>CONTACT:</h3>
+        <!-- FormSubmit allows for an email address to be added to the form tag so that when the form is submitted the content/data in the form will be sent to the email added on the end of the "formsubmit.co" URL (NOTE: The "method" set for the form is POST not GET, because there is data being sent (AKA Posted) when the form request/submission is completed) -->
+
+        <form class="contactForm" action="https://formsubmit.co/grant.harper@stu.barren.kyschools.us" method="Posted">
+          <div id="name">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" placeholder="Name" id="name" name="name">
+          </div>
+          <div id="email">
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" placeholder="Email" id="email" name="email">
+            <div id="message">
+              <label for="message">Message:</label>
+              <br>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <button id="sumbit" class="btn-1">Send</button>
+        </form>
+      </div>
     </div>
     <div id="bottomFooter">
-        <a href="resume.html">Full Resume (Single Page)</a>
-        <div class="socials">
-            <h3>Social Networks:</h3>
-            <!-- *** REMEMBER TO ADD THE LINKS ***-->
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-        </div>
+      <a href="resume.html">Full Resume (Single Page)</a>
+      <div class="socials">
+        <h3>Social Networks:</h3>
+        <!-- *** REMEMBER TO ADD THE LINKS ***-->
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
     </div>
-</footer>
+  </footer>
 
   <!-- Bootstrap link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
