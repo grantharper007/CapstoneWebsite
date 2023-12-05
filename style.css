@@ -148,3 +148,37 @@ nav{
 }
 
 /* GALLERY FORMATTING */
+#gallery {
+    padding: 0px 50px;
+    background-color: #232325;
+    margin-top: 20px;
+    border: 1px black solid;
+}
+
+#galleryPics{
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 2;
+
+}
+
+#gallery h1 {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #E0E1DD;
+    align-items: center;
+}
+
+.gallery1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
